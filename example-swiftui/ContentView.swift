@@ -11,8 +11,16 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("Rodrigo Viagens")
+                .foregroundColor(Color.white)
+                .font(.custom("Avenir Black", size: 20))
+            
             Text("EPECIAL")
+                .foregroundColor(Color.white)
+                .font(.custom("Avenir Book", size: 20))
+            
             Text("BRAISL")
+                .foregroundColor(Color.white)
+                .font(.custom("Avenir Book", size: 20))
             
             List {
                 Text("Rio de Janeiro")
@@ -21,6 +29,7 @@ struct ContentView: View {
                 Text("Manaus")
             }
         }
+        .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.purple/*@END_MENU_TOKEN@*/)
     }
 }
 
