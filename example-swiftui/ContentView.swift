@@ -14,13 +14,17 @@ struct ContentView: View {
                 .foregroundColor(Color.white)
                 .font(.custom("Avenir Black", size: 20))
             
-            Text("EPECIAL")
+            Text("ESPECIAL")
                 .foregroundColor(Color.white)
                 .font(.custom("Avenir Book", size: 20))
+                .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+                .padding(.leading, 30)
             
-            Text("BRAISL")
+            Text("BRASIL")
                 .foregroundColor(Color.white)
-                .font(.custom("Avenir Book", size: 20))
+                .font(.custom("Avenir Black", size: 20))
+                .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+                .padding(.leading, 30)
             
             List {
                 Text("Rio de Janeiro")
@@ -30,6 +34,7 @@ struct ContentView: View {
             }
         }
         .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.purple/*@END_MENU_TOKEN@*/)
+        .edgesIgnoringSafeArea(.all)
     }
 }
 
