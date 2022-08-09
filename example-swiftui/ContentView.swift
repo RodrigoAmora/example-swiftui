@@ -10,9 +10,16 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("Example SwiftUI")
-            Text("ESPECIAL")
-            Text("BRASIL")
+            Text("Rodrigo Viagens")
+            Text("EPECIAL")
+            Text("BRAISL")
+            
+            List {
+                Text("Rio de Janeiro")
+                Text("Ceará")
+                Text("Porto Alegre")
+                Text("Manaus")
+            }
         }
     }
 }
