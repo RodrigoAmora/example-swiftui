@@ -30,9 +30,27 @@ struct ContentView: View {
                         .padding(.leading, 30)
                 }
                 .frame(width: view.size.width, height: 180, alignment: .top)
-                .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.purple/*@END_MENU_TOKEN@*/)
-                .edgesIgnoringSafeArea(.all)
+                .background(.purple)
                 
+                HStack {
+                    Button(action: {}) {
+                        Text("Hotéis")
+                            .font(.custom("Avenir Medium", size: 17))
+                            .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
+                    }
+                    .frame(width: 100, height: 50)
+                    .background(.blue)
+                    
+                    Button(action: {}) {
+                        Text("Pacotes")
+                            .font(.custom("Avenir Medium", size: 17))
+                            .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
+                    }
+                    //.cornerRadius(CGFloat: 5.0)
+                    .frame(width: 100, height: 50)
+                    .background(.orange)
+                }
+
                 List {
                     Text("Rio de Janeiro")
                     Text("Ceará")
@@ -41,6 +59,7 @@ struct ContentView: View {
                 }
             }
         }
+        .edgesIgnoringSafeArea(.all)
     }
 }
 
