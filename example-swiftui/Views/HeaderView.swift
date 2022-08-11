@@ -32,33 +32,35 @@ struct HeaderView: View {
                         .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         .padding(.leading, 30)
                 }
-                .frame(width: view.size.width, height: 180, alignment: .top)
+                .frame(width: view.size.width,
+                       height: self.horizontalSizeClass == .compact ? 200 : 310,
+                       alignment: .top)
                 .background(Color.purple)
                 
                 HStack {
                     Button(action: {}) {
                         Text("Hotéis")
-                            .font(.custom("Avenir Medium", size: 17))
+                            .font(.custom("Avenir Medium", size: self.horizontalSizeClass == .compact ? 17 : 24))
                             .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
                     }
                     .frame(width: 100, height: 50)
                     .overlay(RoundedRectangle(cornerRadius: 10)
                         .stroke(Color.blue, lineWidth: 10))
                     .background(.blue)
-                    .offset(x: 50)
+                    .offset(x: self.horizontalSizeClass == .compact ? 50 : view.size.width/4)
                     
                     Spacer()
                     
                     Button(action: {}) {
                         Text("Pacotes")
-                            .font(.custom("Avenir Medium", size: 17))
+                            .font(.custom("Avenir Medium", size: self.horizontalSizeClass == .compact ? 17 : 24))
                             .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
                     }
                     .frame(width: 100, height: 50)
                     .overlay(RoundedRectangle(cornerRadius: 10)
                         .stroke(Color.orange, lineWidth: 10))
                     .background(.orange)
-                    .offset(x: -50)
+                    .offset(x: self.horizontalSizeClass == .compact ? -50 : -view.size.width/4)
                 }
                 .offset(y: -25)
             }
