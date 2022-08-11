@@ -32,5 +32,6 @@ struct CelulaViagemView: View {
 struct CelulaViagemView_Previews: PreviewProvider {
     static var previews: some View {
         CelulaViagemView(viagem: viagens[0])
+            .previewLayout(.fixed(width: 350, height: 200))
     }
 }
