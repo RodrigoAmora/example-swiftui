@@ -11,6 +11,7 @@
 		D2901F8128A589EE0051BC3C /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2901F7F28A589EE0051BC3C /* Dados.swift */; };
 		D2901F8328A589F60051BC3C /* viagens.json in Resources */ = {isa = PBXBuildFile; fileRef = D2901F8228A589F60051BC3C /* viagens.json */; };
 		D2901F9028A5908B0051BC3C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2901F8F28A5908B0051BC3C /* HeaderView.swift */; };
+		D2901F9228A5930E0051BC3C /* CelulaViagemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2901F9128A5930E0051BC3C /* CelulaViagemView.swift */; };
 		D295B156289A5B4800C9EF76 /* example_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D295B155289A5B4800C9EF76 /* example_swiftuiApp.swift */; };
 		D295B158289A5B4800C9EF76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D295B157289A5B4800C9EF76 /* ContentView.swift */; };
 		D295B15A289A5B4900C9EF76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D295B159289A5B4900C9EF76 /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 		D2901F7F28A589EE0051BC3C /* Dados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dados.swift; path = ../../../../../Downloads/Resources/Models/Dados.swift; sourceTree = "<group>"; };
 		D2901F8228A589F60051BC3C /* viagens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = viagens.json; path = ../../../../Downloads/Resources/viagens.json; sourceTree = "<group>"; };
 		D2901F8F28A5908B0051BC3C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		D2901F9128A5930E0051BC3C /* CelulaViagemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelulaViagemView.swift; sourceTree = "<group>"; };
 		D295B152289A5B4800C9EF76 /* example-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "example-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D295B155289A5B4800C9EF76 /* example_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example_swiftuiApp.swift; sourceTree = "<group>"; };
 		D295B157289A5B4800C9EF76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			children = (
 				D295B157289A5B4800C9EF76 /* ContentView.swift */,
 				D2901F8F28A5908B0051BC3C /* HeaderView.swift */,
+				D2901F9128A5930E0051BC3C /* CelulaViagemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				D2901F8128A589EE0051BC3C /* Dados.swift in Sources */,
 				D2901F8028A589EE0051BC3C /* Viagem.swift in Sources */,
 				D295B156289A5B4800C9EF76 /* example_swiftuiApp.swift in Sources */,
+				D2901F9228A5930E0051BC3C /* CelulaViagemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
