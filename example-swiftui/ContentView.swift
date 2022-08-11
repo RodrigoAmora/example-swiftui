@@ -30,7 +30,7 @@ struct ContentView: View {
                         .padding(.leading, 30)
                 }
                 .frame(width: view.size.width, height: 180, alignment: .top)
-                .background(.purple)
+                .background(Color.purple)
                 
                 HStack {
                     Button(action: {}) {
@@ -39,17 +39,25 @@ struct ContentView: View {
                             .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
                     }
                     .frame(width: 100, height: 50)
+                    .overlay(RoundedRectangle(cornerRadius: 10)
+                        .stroke(Color.blue, lineWidth: 10))
                     .background(.blue)
+                    .offset(x: 50)
+                    
+                    Spacer()
                     
                     Button(action: {}) {
                         Text("Pacotes")
                             .font(.custom("Avenir Medium", size: 17))
                             .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
                     }
-                    //.cornerRadius(CGFloat: 5.0)
                     .frame(width: 100, height: 50)
+                    .overlay(RoundedRectangle(cornerRadius: 10)
+                        .stroke(Color.orange, lineWidth: 10))
                     .background(.orange)
+                    .offset(x: -50)
                 }
+                .offset(y: -25)
 
                 List {
                     Text("Rio de Janeiro")
