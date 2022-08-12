@@ -19,6 +19,7 @@
 		D295B167289A5B4900C9EF76 /* example_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D295B166289A5B4900C9EF76 /* example_swiftuiTests.swift */; };
 		D295B171289A5B4900C9EF76 /* example_swiftuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D295B170289A5B4900C9EF76 /* example_swiftuiUITests.swift */; };
 		D295B173289A5B4900C9EF76 /* example_swiftuiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D295B172289A5B4900C9EF76 /* example_swiftuiUITestsLaunchTests.swift */; };
+		D2DEF2C928A5EFDE001CBE70 /* MapaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DEF2C828A5EFDE001CBE70 /* MapaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		D295B16C289A5B4900C9EF76 /* example-swiftuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "example-swiftuiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D295B170289A5B4900C9EF76 /* example_swiftuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example_swiftuiUITests.swift; sourceTree = "<group>"; };
 		D295B172289A5B4900C9EF76 /* example_swiftuiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example_swiftuiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2DEF2C828A5EFDE001CBE70 /* MapaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				D295B157289A5B4800C9EF76 /* ContentView.swift */,
 				D2901F8F28A5908B0051BC3C /* HeaderView.swift */,
 				D2901F9128A5930E0051BC3C /* CelulaViagemView.swift */,
+				D2DEF2C828A5EFDE001CBE70 /* MapaView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2901F9028A5908B0051BC3C /* HeaderView.swift in Sources */,
+				D2DEF2C928A5EFDE001CBE70 /* MapaView.swift in Sources */,
 				D295B158289A5B4800C9EF76 /* ContentView.swift in Sources */,
 				D2901F8128A589EE0051BC3C /* Dados.swift in Sources */,
 				D2901F8028A589EE0051BC3C /* Viagem.swift in Sources */,
